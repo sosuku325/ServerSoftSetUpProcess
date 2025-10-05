@@ -5,6 +5,12 @@ Windows 向けで、Python と `tkinter`、`requests` が必要です。
 
 ---
 
+## Build方法
+* pyinstallerを使用します。
+```bash
+pyinstaller --onefile --windowed main.py
+```
+
 ## 機能
 
 * Minecraft サーバーの最新バージョンを取得してダウンロード（デフォルトは PaperMC）
